@@ -19,7 +19,7 @@ header h1 {
     font-weight: bold;
     display: inline;
     margin: 0;
-    font-size: 36px;
+    font-size: 50px;
     color: limegreen
 }
 
@@ -38,12 +38,41 @@ header nav ul li {
     display: inline;
   }
   
-  header nav ul li a {
+header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
     font-size: 22px;
   }
   
-  /* HEADER/NAV BAR STYLES END/*
+  /* HEADER/NAV BAR STYLES END */
+
+.hero {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: cover;
+    display: flex;
+    justify-content: right;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    background-attachment: fixed;
+    background-position: 80%;
+    }
+
+.hero-cta{
+    width: 35%;
+    text-align: right;
+    margin: 3.5%;
+    color: lavenderblush;
+    font-size: 18px;
+    line-height: 1.2;
+  }
+
+.hero-cta h2 {
+text-align: center;
+font-style: italic;
+font-size: 40px;
+color: lightgreen;
+text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+}
 
   
