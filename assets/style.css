@@ -101,13 +101,9 @@ h2{
 }
 
 .primary-border {
-    border-color:magenta ;
-    margin: 10 20 10 20;
-    width: 60%;
-    text-align: right;
-    
-   
-}
+    border-right: 3px solid magenta ;
+   }
+
 .intro {
     padding: 20px 35px;
     font-size: 30px;
@@ -116,12 +112,21 @@ h2{
 
    
 }
+.intro h3 {
+    display: flex;
+    flex: 1 0 15%;
+    margin: 10 20 10 20;
+    text-align: right;
+}
   
 .intro p {
     color: lightgreen;
     font-size: 15px;
     font-weight: bold;
-    flex-wrap: wrap;
+    display: flex;
+    
+    margin-left: 20px;
+
     
     
 }
@@ -133,11 +138,41 @@ h2{
      padding: 20px 35px;
      font-size: 30px;
      color: limegreen;
-    
 }
 
+.my-work h3 {
+    display: flex;
+    flex: 1 0 15%;
+    margin: 10 20 10 20;
+    text-align: right;
+}
 .top-pic{
     color: magenta;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.top-pic img {
+    width: 78vw;
+}
+.work-card{
+    position: relative;
+
+}
+.work-card p {
+    position: absolute;
+    bottom: 0;
+    background-color: aqua;
+    padding: 5px;
+}
+
+.sml-work-cards {
+display: flex;
+justify-content: space-between;
+
+}
+.sml-work-cards img {
+    width: 25vw;
 }
 .mid-pic {
     color: magenta;
@@ -146,7 +181,17 @@ h2{
 .bot-pic{
     color: magenta;
 }
+.cover {
+    background: rgba(144, 238, 144, 0.25);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+}
+.cover:hover {
+    background: none;
 
+}
 /* WORK STYLES END */
 
 /* CONTACT ME SECTION STYLES START */
@@ -155,6 +200,13 @@ h2{
     padding: 20px 35px;
     font-size: 30px;
     color: limegreen;
+}
+
+.contact h3 {
+    display: flex;
+    flex: 1 0 15%;
+    margin: 10 20 10 20;
+    text-align: right;
 }
 .contact-box {
     display:flex;
@@ -170,4 +222,19 @@ h2{
 
 .flex-row {
     display: flex;
+   
+}
+.flex-column {
+display: flex;
+flex-direction: column;
+}
+
+.right-column {
+    display: flex;
+    flex: 2 0 85%;
+    margin-left: 20px;
+}
+.left-column {
+    display: flex;
+    flex: 1 0 15%;
 }
