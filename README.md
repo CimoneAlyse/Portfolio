@@ -35,3 +35,12 @@ WHEN I resize the page or view the site on various screens and devices
 
 THEN I am presented with a responsive layout that adapts to my viewport
 
+My project is a short webpage which describes me as a coder
+I provided only 3 links because those have actual real work contained inside them.
+
+Link to deployed app:
+https://cimonealyse.github.io/Portfolio/
+
+<img width="1430" alt="Screen Shot 2022-06-01 at 8 00 25 PM" src="https://user-images.githubusercontent.com/101027466/171520670-6f3dca4a-142b-4cd6-b10b-f88afc73114e.png">
+
+
